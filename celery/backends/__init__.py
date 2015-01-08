@@ -28,6 +28,7 @@ BACKEND_ALIASES = {
     'mongodb': 'celery.backends.mongodb:MongoBackend',
     'database': 'celery.backends.database:DatabaseBackend',
     'cassandra': 'celery.backends.cassandra:CassandraBackend',
+    'dynamodb': 'celery.backends.dynamodb:DynamoBackend',
     'disabled': 'celery.backends.base:DisabledBackend',
 }
 
